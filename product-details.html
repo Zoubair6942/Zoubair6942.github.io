@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Product details - Sonification</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+	<div class="navbar">
+	<div class="logo">
+		<a href="index.html"><img src="Sonificationlogo.png" width="125px"></a>
+		</div>
+		<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="products.html">Products</a></li>
+			<li><a href="https://www.instagram.com/zoubair.073/">Contact</a></li>
+			<li><a href="account.html">Account</a></li>
+		</ul>
+		</nav>
+	</div>	
+		
+	</div>
+
+	<!----- product details ----->
+	<div class="small-container single-product">
+	<div class="row">
+	<div class="col-2">
+				<img src="gallery-1.png" width="100%" id="ProductImg">
+		
+			<div class="small-img-row">
+			<div class="small-img-col">
+				<img src="gallery-1.png" width="100%" class= "small-img">
+				</div>
+				<div class="small-img-col">
+				<img src="smallgallery-1.png" width="100%" class= "small-img">
+				</div>
+		</div>
+		
+		</div>
+	<div class="col-2">
+			<p>Home / Sonification I</p>
+			<h1>Sonification I</h1>
+			<h4>€119,95</h4>
+			<a href="cart1.html" class="btn">Buy</a>
+		
+		<h3>Product Details </h3>
+		<br>
+		<p>Sonification I gives your home a new look. Sonification I is a dynamic LED fiber optic star display. The stars have a wonderful pin point quality that can be programmed to display any color and animated to twinkle or pulse. Unlike other star displays, the Sonification I has an LED strip with custom attachments instead of typical fiber optic illuminator. With Arduino programming, the options are limitless for triggers and animations.</p>
+		</div>
+		</div>
+	</div>
+	
+	<!------- Titel ------->
+	<div class="small-container">
+	<div class="row row-2">
+		<h2>Related Products</h2>
+		<a href="products.html"><p>View more</p></a>
+		</div>
+	</div>
+	
+	<!------Producten----->
+	
+	<div class="small-container">
+
+		
+		<div class="row">
+		<div class="col-4">
+			<a href="product-details.html"><img src="sonification2.png"></a>
+			<h4>Sonification I</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>€119,95</p>
+			</div>
+			
+		<div class="col-4">
+			<a href="product-details2.html"><img src="sonification2.png"></a>
+			<h4>Sonification II</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<p>€199,95</p>
+			
+		</div>
+			
+		</div>
+					
+	</div>
+	
+	
+	<!----- footer ----->
+	<div class="footer">
+	<div class="container">
+		<div class="row">
+		<div class="footer-col-1">
+			<h3>Download our App</h3>
+			<p>Download our App for Android and ios mobile phone.</p>
+			<div class="app-logo">
+			<img src="play-store.png">
+			<img src="app-store.png">
+			</div>
+			</div>
+		<div class="footer-col-2">
+			<img src="Sonificationlogo2.png">
+			<p>Our purpose is make your house a nicer place.</p>
+			</div>
+		<div class="footer-col-3">
+			<h3>Useful Links</h3>
+			<ul>
+				<li>Coupons</li>
+				<li>Blog Post</li>
+				<li>Return Policy</li>			
+				<li>Join Affiliate</li>
+			</ul>
+			</div>
+		<div class="footer-col-4">
+			<h3>Follow us</h3>
+			<ul>
+				<li>Facebook</li>
+				<li>Twitter</li>
+				<li>Instagram</li>			
+				<li>YouTube</li>
+			</ul>
+			</div>	
+		</div>
+		<hr>
+		<p class="copyright">Copyright 2022 - Zoubair Khan</p>
+		</div>
+	</div>
+	
+	
+	<!----- javascript voor product details ----->
+<script>
+	var ProductImg = document.getElementById("ProductImg");
+	var SmallImg = document.getElementsByClassName("small-img");
+	
+	SmallImg[0].onclick = function()
+	{
+		ProductImg.src = SmallImg[0].src;
+	}
+		SmallImg[1].onclick = function()
+	{
+		ProductImg.src = SmallImg[1].src;
+	}
+</script>
+	
+</body>
+</html>
